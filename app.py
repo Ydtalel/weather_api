@@ -86,7 +86,7 @@ async def fetch_weather_data():
             except Exception as e:
                 logging.error(f"Ошибка запроса: {str(e)}")
 
-        await asyncio.sleep(60)
+        await asyncio.sleep(180)
 
 
 async def main():
